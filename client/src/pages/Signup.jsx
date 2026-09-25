@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { GoogleLogin } from '@react-oauth/google';
 import { useAuth } from '../contexts/AuthContext.jsx';
 import PasswordInput from '../components/ui/PasswordInput.jsx';
+//change the signup page to include a name field and handle Google sign-in
 
 export default function Signup() {
   const { loginWithGoogle, signup } = useAuth();
